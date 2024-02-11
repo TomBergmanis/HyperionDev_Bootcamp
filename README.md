@@ -1,8 +1,8 @@
 # HyperionDev_Bootcamp
 
-## HyperionDev/CoGrammar Bootcamp Python Software Engineering Fundamentals
+### HyperionDev/CoGrammar Bootcamp Python Software Engineering Fundamentals
 
-# Overview
+### Overview
 
 This bootcamp covered the fundamental skills and technical knowledge of the Python programming languages, it also covered Git, GitHub and key topics of computer science, such as Big O notation, Object oriented programming and system design.
 
