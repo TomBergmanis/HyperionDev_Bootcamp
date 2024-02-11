@@ -8,4 +8,7 @@ This bootcamp covered the fundamental skills and technical knowledge of the Pyth
 
 This repo has all the mandatory tasks submitted to the bootcamp.
 
+Each task covers a Python coding topic e.g. While loops, if elif else statements, printing, string concatination etc. 
+The capstone projects bring together a group of Python topics to complete a mini project. 
+
 Feel free to browse through them and ask questions.
