@@ -1,7 +1,8 @@
 print("hello")
-"""create a variable called hero then use strip to remove the $ signs in "$$$Superman$$$" """
+# Create a variable called hero then use strip to remove the $ signs in "$$$Superman$$$" 
 
 hero = "$$$Superman$$$"
-hero = hero.strip("$") # using the strip method to remove the $ symbol from the string
+# using the strip method to remove the $ symbol from the string
+hero_strip = hero.strip("$") 
 
-print(hero)
+print(hero_strip)
