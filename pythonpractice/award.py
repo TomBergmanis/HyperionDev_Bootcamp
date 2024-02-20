@@ -16,15 +16,15 @@ try:
 
     print(total_time) # Testing to see if the total time variable sums the total time of each part ofthe triathlon
 
+    # Using an if elif else statement to determine the award the person has. 
+    if total_time <= 100: # A time of 100 munutes or below 
+        print("Well done! Provincial Colours")
+    elif 101 <= total_time <= 105: #  A time of 101 or above and 105 minutes or below 
+        print("well done as well! Provincial Half Colours")
+    elif 106 <= total_time <= 110: #  A time of 106 or above and 110 munutes or below 
+        print("Not bad! Provincial Scroll")
+    else: 
+        print("Sorry better luck next time") # This should catch all other options or anything over 110 minutes 
+
 except ValueError:
     print("Invalid input. Please enter a number. ")
-
-# Using an if elif else statement to determine the award the person has. 
-if total_time <= 100: # A time of 100 munutes or below 
-    print("Well done! Provincial Colours")
-elif 101 <= total_time <= 105: #  A time of 101 or above and 105 minutes or below 
-    print("well done as well! Provincial Half Colours")
-elif 106 <= total_time <= 110: #  A time of 106 or above and 110 munutes or below 
-    print("Not bad! Provincial Scroll")
-else: 
-    print("Sorry better luck next time") # This should catch all other options or anything over 110 minutes 

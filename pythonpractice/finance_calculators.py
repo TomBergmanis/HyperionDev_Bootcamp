@@ -39,12 +39,14 @@ if user_choice == "investment":
         print("\nYou chose simple interest\n")
         rate = rate / 100 # taking the user input and dividing by 100 e.g. 8% == 0.08
         total_amount = deposit * (1 + rate * years)
-        print("£" + str(total_amount)) # concatenate the string. could tidy up with .format or f string.
+        rounded_number = round(total_amount, 2)
+        print("\n£" + str(rounded_number))  
     else:
         print("\nYou chose compound interest\n")
         rate = rate / 100
         total_amount =  deposit * math.pow((1 + rate), years)
-        print("£" + str(total_amount)) #tidy up with .format
+        rounded_number = round(total_amount, 2)
+        print("\n£" + str(rounded_number)) 
 
 else: 
     print("You chose bond.")
@@ -55,6 +57,6 @@ else:
     interest_rate = (interest_rate / 100) / 12 # getting the monthly interest rate e.g. annual 7% == 0.07 / 12 monthly 
 
     repayment = (interest_rate * house_value) / (1 - (1 + interest_rate)**(-months))
-    print("\n£" + str(repayment)) # tidy up using .format
+    rounded_number = round(repayment, 2)
+    print("\n£" + str(rounded_number)) 
 
-    # there are areas which could be improved with the knowledge gained from later on in the course however, I have stuck to the instructions of the capstone project. 
